@@ -1,0 +1,7 @@
+{
+  "name": "Sloan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
