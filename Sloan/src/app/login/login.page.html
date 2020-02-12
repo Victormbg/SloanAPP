@@ -1,9 +1,20 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+	<ion-img src="../../assets/img/sloan.png"></ion-img>
+	<!--Campo Email Login-->
+	<ion-list>
+		<ion-item lines="none">
+			<ion-input placeholder="E-mail" type="email" required></ion-input>
+		</ion-item>
 
+		<!--Campo Senha Login-->
+		<ion-item lines="none">
+			<ion-input placeholder="Senha" type="password" required></ion-input>
+		</ion-item>
+	</ion-list>
+	<!--Botão Entrar-->
+	<ion-row>
+		<ion-col style="text-align: center">
+			<ion-button style="text-align: center" color="success" shape="round">Entrar</ion-button>
+		</ion-col>
+	</ion-row>
 </ion-content>
