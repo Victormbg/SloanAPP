@@ -1,3 +1,57 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+h1 {
+  position: absolute;
+  width: 263px;
+  height: 23px;
+  left: 90px;
+  top: 70px;
+  color: #334e79;
+}
+
+h2 {
+  position: absolute;
+  width: 99px;
+  height: 38px;
+  left: 9px;
+  top: 146px;
+
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158.15%;
+  /* identical to box height, or 38px */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+h3 {
+  position: absolute;
+  width: 241px;
+  height: 38px;
+  left: 113px;
+  top: 146px;
+
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 158.15%;
+  /* identical to box height, or 38px */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+ion-img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  top: -7px;
+}
