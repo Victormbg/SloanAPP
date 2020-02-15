@@ -2,7 +2,9 @@ ion-content ion-toolbar {
   --background: translucent;
 }
 
-h1 {
+.VS {
+  /* Visão Geral */
+
   position: absolute;
   width: 318px;
   height: 104px;
@@ -21,14 +23,75 @@ h1 {
   color: #6b6b6b;
 }
 
-ion-img {
-  
-  width: 51.82px;
-  height: 60px;
-  
+.MY {
+  /* My */
+
+  position: absolute;
+  width: 86px;
+  height: 56px;
+  left: 100px;
+  top: 92px;
+
+  font-family: Code Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 122.57%;
+  /* identical to box height, or 55px */
+
+  letter-spacing: 0.01em;
+
+  color: #72ff00;
+
+  border: 2px solid rgba(0, 0, 0, 0.0025);
+  box-sizing: border-box;
 }
 
-h2 {
+.imgSloan {
+  /* sloan1 1 */
+
+  position: absolute;
+  width: 157px;
+  height: 78px;
+  left: 153px;
+  top: 81px;
+}
+
+.imgMoeda {
+  position: absolute;
+  width: 51.82px;
+  height: 60px;
+  left: 0px;
+  top: 162px;
+}
+
+.creditos {
+  /* créditos disponíveis */
+
+  position: static;
+  width: 319px;
+  height: 36px;
+  left: 10px;
+  top: 10px;
+
+  font-family: Code Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
   color: #bfab41;
 
+  border: 0.5px solid rgba(0, 0, 0, 0.0025);
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px 0px;
 }
