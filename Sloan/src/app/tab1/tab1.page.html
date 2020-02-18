@@ -1,14 +1,45 @@
 <ion-content>
-	<ion-row>
-		<ion-col style="text-align: center">
-			<h1 class="VS">Visao Geral</h1>
-			<h2 class="MY">MY</h2>
-			<ion-img class="imgSloan" src="../../assets/img/sloan1.png"></ion-img>
-		</ion-col>
-
-		<ion-col style="text-align: center">
-			<ion-img class="imgMoeda" src="../../assets/img/moedas.png"></ion-img>
-			<h2 class="creditos">CREDITOS DISPONIVEIS</h2>
-		</ion-col>
-	</ion-row>
+	<ion-header>
+		<ion-img src="../../assets/img/logo.png"></ion-img>
+	</ion-header>
+	<ion-card>
+		<p>Olá, <strong>VICTOR MANUEL,</strong><br>
+        Voce tem <strong>45.674</strong> pontos acumulados para ajudar no seu emprestimo!
+		</p>
+	</ion-card>
+	<ul>
+		<li>
+			<h1>Limite pré-aprovado</h1>
+		</li>
+		<li>
+			<h2>R$ 30.000,00</h2>
+		</li>
+	</ul>
+	<ion-card class="caixa1">
+		<p class="a1">Quanto quer emprestado?<br>
+			<strong class="a2">Disponivel R$ 19.500</strong><br>
+		</p>
+			<ion-range min="20" max="80" step="2">
+				<ion-icon slot="start" name="add-outline"></ion-icon>
+				<ion-icon slot="end" name="remove-outline"></ion-icon>
+			</ion-range>
+	</ion-card>
+<ul>
+		<li>
+			<h1>Taxas de Juros</h1>
+		</li>
+		<li>
+			<h2>2,70%</h2>
+		</li>
+	</ul>
+	<ion-card class="caixa1">
+		<p class="a1">Quanto quer reduzir a taxa do seu empréstimo?<br>
+			<strong class="a2">Disponivel 2,20%</strong><br>
+		</p>
+			<ion-range min="20" max="80" step="2">
+				<ion-icon slot="start" name="add-outline"></ion-icon>
+				<ion-icon slot="end" name="remove-outline"></ion-icon>
+			</ion-range>
+            <strong>Pontos 32.700</strong>
+	</ion-card>
 </ion-content>

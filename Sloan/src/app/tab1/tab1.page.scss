@@ -2,96 +2,63 @@ ion-content ion-toolbar {
   --background: translucent;
 }
 
-.VS {
-  /* Visão Geral */
-
-  position: absolute;
-  width: 318px;
-  height: 104px;
-  left: 62px;
-  top: 44px;
-
-  font-family: Exo;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 106.65%;
-  /* or 48px */
-
-  letter-spacing: -0.04em;
-
-  color: #6b6b6b;
+ion-header {
+  background-color: skyblue;
 }
 
-.MY {
-  /* My */
-
-  position: absolute;
-  width: 86px;
-  height: 56px;
-  left: 100px;
-  top: 92px;
-
-  font-family: Code Bold;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
-  line-height: 122.57%;
-  /* identical to box height, or 55px */
-
-  letter-spacing: 0.01em;
-
-  color: #72ff00;
-
-  border: 2px solid rgba(0, 0, 0, 0.0025);
-  box-sizing: border-box;
+ion-img {
+  width: 200px;
 }
 
-.imgSloan {
-  /* sloan1 1 */
-
-  position: absolute;
-  width: 157px;
-  height: 78px;
-  left: 153px;
-  top: 81px;
+p {
+  color: blue;
 }
 
-.imgMoeda {
-  position: absolute;
-  width: 51.82px;
-  height: 60px;
-  left: 0px;
-  top: 162px;
+ion-card {
+  font-size: 19px;
+  width: 350px;
 }
 
-.creditos {
-  /* créditos disponíveis */
+h1 {
+  margin-right: 50px;
+  font-size: 20px;
+  -webkit-box-shadow: -1px -9px 5px 1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -1px -9px 5px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: -1px -9px 5px 1px rgba(0, 0, 0, 0.47);
+}
 
-  position: static;
-  width: 319px;
-  height: 36px;
-  left: 10px;
-  top: 10px;
+h2 {
+  color: green;
+  font-size: 20px;
+}
 
-  font-family: Code Bold;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 29px;
-  line-height: 36px;
-  /* identical to box height */
+ul li {
+  display: inline-block;
+}
 
-  letter-spacing: 0.01em;
+.a1 {
+  color: black;
+}
 
-  color: #bfab41;
+.a2 {
+  text-align: center;
+  color: green;
+}
 
-  border: 0.5px solid rgba(0, 0, 0, 0.0025);
-  box-sizing: border-box;
+.caixa1 {
+  background-color: #e3e1dc;
+}
 
-  /* Inside Auto Layout */
+ion-range {
+  background: #e3e1dc;
+  --bar-background: #ababab;
+  --bar-background-active: #59de5f;
+  --pin-color: white;
+  --pin-background: white;
+  --knob-background: white;
+  --bar-height: 10px;
+}
 
-  flex: none;
-  order: 0;
-  align-self: center;
-  margin: 10px 0px;
+ion-icon {
+  color: #59de5f;
 }
