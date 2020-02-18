@@ -16,7 +16,8 @@ p {
 
 ion-card {
   font-size: 19px;
-  width: 350px;
+  width: 370px;
+  margin-left: 20px;
 }
 
 h1 {
@@ -38,6 +39,12 @@ ul li {
 
 .a1 {
   color: black;
+  margin:5px;
+}
+
+.a2 {
+  text-align: center;
+  color: green;
 }
 
 .a2 {
@@ -52,13 +59,17 @@ ul li {
 ion-range {
   background: #e3e1dc;
   --bar-background: #ababab;
-  --bar-background-active: #59de5f;
+  --bar-background-active: #31b03e;
   --pin-color: white;
   --pin-background: white;
   --knob-background: white;
-  --bar-height: 10px;
+  --bar-height: 15px;
+  --bar-border-radius:20px;
+  padding-bottom: 3px;
+  padding-top: 3px;
 }
 
 ion-icon {
-  color: #59de5f;
+  color: #31b03e;
+  font-size: 30px;
 }

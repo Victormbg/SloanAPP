@@ -2,11 +2,13 @@
 	<ion-header>
 		<ion-img src="../../assets/img/logo.png"></ion-img>
 	</ion-header>
-	<ion-card>
-		<p>Olá, <strong>VICTOR MANUEL,</strong><br>
+	<div class="ion-text-center">
+		<ion-card>
+			<p>Olá, <strong>VICTOR MANUEL,</strong><br>
         Voce tem <strong>45.674</strong> pontos acumulados para ajudar no seu emprestimo!
-		</p>
-	</ion-card>
+			</p>
+		</ion-card>
+	</div>
 	<ul>
 		<li>
 			<h1>Limite pré-aprovado</h1>
@@ -16,15 +18,19 @@
 		</li>
 	</ul>
 	<ion-card class="caixa1">
-		<p class="a1">Quanto quer emprestado?<br>
-			<strong class="a2">Disponivel R$ 19.500</strong><br>
-		</p>
-			<ion-range min="20" max="80" step="2">
-				<ion-icon slot="start" name="add-outline"></ion-icon>
-				<ion-icon slot="end" name="remove-outline"></ion-icon>
-			</ion-range>
+		<p class="a1">Quanto quer emprestado?<br></p>
+			<div class="ion-text-center">
+				<strong class="a2">Disponivel R$ 19.500</strong><br>
+		</div>
+				<ion-range min="20" max="80" step="2">
+					<ion-icon slot="start" name="add-outline"></ion-icon>
+					<ion-icon slot="end" name="remove-outline"></ion-icon>
+				</ion-range>
+				<div class="ion-text-center">
+					<strong class="a2">Pontos 25.200</strong>
+				</div>
 	</ion-card>
-<ul>
+	<ul>
 		<li>
 			<h1>Taxas de Juros</h1>
 		</li>
@@ -33,13 +39,19 @@
 		</li>
 	</ul>
 	<ion-card class="caixa1">
+
 		<p class="a1">Quanto quer reduzir a taxa do seu empréstimo?<br>
-			<strong class="a2">Disponivel 2,20%</strong><br>
 		</p>
-			<ion-range min="20" max="80" step="2">
-				<ion-icon slot="start" name="add-outline"></ion-icon>
-				<ion-icon slot="end" name="remove-outline"></ion-icon>
-			</ion-range>
-            <strong>Pontos 32.700</strong>
+			<div class="ion-text-center">
+				<strong class="a2">Disponivel 2,20%</strong><br>
+            </div>
+				<ion-range min="20" max="80" step="2">
+					<ion-icon slot="start" name="add-outline"></ion-icon>
+					<ion-icon slot="end" name="remove-outline"></ion-icon>
+				</ion-range>
+				<div class="ion-text-center">
+					<strong class="a2">Pontos 32.700</strong>
+				</div>
 	</ion-card>
+   <ion-button shape="round" color="success">Retirar</ion-button>
 </ion-content>
