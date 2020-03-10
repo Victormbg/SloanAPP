@@ -13,7 +13,7 @@ https://sloanemprestimo.000webhostapp.com/SLOAN/index.html
 https://youtu.be/AZ5w5yPwfQg
 
 # Feedbacks
-Seu time tem 3 feedbacks
+Seu time tem 3 feedbacks<br>
 Parabéns pela entrega Sloan! Senti um pouco dificuldade de entender como a solução iria se tornar um empréstimo de fato. Tive a impressão de que a solução está mais para programa de vantagens do que para empréstimos. Gostei bastante da apresentação e da landpage mas faltou entrar em mais detalhes da solução proposta.<br>
 
 Pontos a favor: - Modelo bastante viavel, pois só criou um sistema de pontos, não foi tão criativo mas muito viável. - É um modelo aplicável - Imagens bem feitas Pontos fracos: - Faltou protótipo online, mesmo que fosse mocado - Não apresentou um modelo de negócios mais detalhado - Não apresentou como isso iria monetizar, não informou muito sobre as regras de negócio de pontuação, nem os limites de taxas. - Não falou nem apresentou um modelo que fala-se de inadimplência<br>
